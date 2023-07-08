@@ -1,0 +1,13 @@
+team = []  # Empty list to store the team members
+
+# Get input from the user for team members
+while True:
+    player = input("Enter the name of a player (or 'done' to finish): ")
+    if player.lower() == "done":
+        break
+    team.append(player)
+
+# Print the team members
+print("Cricket Players Team:")
+for player in team:
+    print(player)
